@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./index.ts",
-    "build": "tsc --w",
-    "start": "tsc && ts-node ./dist/index.js"
+    "build": "tsc && ts-node ./dist/index.js"
   },
   "author": "Nicolas Sharp",
   "license": "ISC",

@@ -1,6 +1,6 @@
 import * as express from 'express'
 import * as bodyParser from 'body-parser'
-import { CatsService } from './services/CatsService'
+import { CatsService } from './src/services/CatsService'
 import * as cors from 'cors'
 import * as dotenv from 'dotenv'
 

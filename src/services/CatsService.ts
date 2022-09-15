@@ -1,7 +1,6 @@
 import axios from 'axios'
 import { CatObject } from '../interfaces/ICatObject'
 import { TopFiveCats } from '../interfaces/ITopFiveCats'
-
 import * as dotenv from 'dotenv'
 
 dotenv.config()
