@@ -1,4 +1,4 @@
-export interface TopFiveCats {
+export interface Cat {
   cat_name: string
   child_friendly: number
   dog_friendly: number
