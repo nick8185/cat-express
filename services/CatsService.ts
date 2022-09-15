@@ -6,8 +6,8 @@ import * as dotenv from 'dotenv'
 
 dotenv.config()
 
-const catUrl: any = process.env.caturl
-const apiKey: any = process.env.apikey
+const catUrl: any = process.env.CATURL
+const apiKey: any = process.env.APIKEY
 const headers = {
   headers: {
     Accept: 'application/json',
